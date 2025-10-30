@@ -1,0 +1,22 @@
+{
+  "name": "papercolordark-theme",
+  "displayName": "PaperColor Dark Theme",
+  "description": "A beautiful dark theme inspired by PaperColor",
+  "version": "1.0.0",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PaperColorDark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PaperColorDark-color-theme.json"
+      }
+    ]
+  }
+}
