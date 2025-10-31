@@ -1,0 +1,19 @@
+# Exclude development and VCS metadata
+.git/**
+.github/**
+.vscode/**
+.idea/**
+node_modules/**
+
+# Exclude build artifacts and temp files
+*.vsix
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Exclude tests and scripts (none currently, but future-proof)
+**/*.test.*
+**/__tests__/**
+**/scripts/**

@@ -24,6 +24,11 @@ The theme uses a refined color palette that provides excellent contrast and read
 
 ## Installation
 
+### Open VSX (VSCodium, Eclipse Theia)
+- Open VSX page: `https://open-vsx.org/extension/HarisKhan-777/papercolor-dark-theme`
+- In VSCodium/Theia/Cursor, search for "PaperColor Dark Theme" in Extensions
+- Or install from a VSIX: download from Releases and use "Install from VSIX"
+
 ### From Visual Studio Marketplace
 1. Open Visual Studio Code
 2. Go to Extensions (Ctrl+Shift+X)
@@ -42,6 +47,8 @@ The theme uses a refined color palette that provides excellent contrast and read
 4. Select the theme from File > Preferences > Color Theme
 
 ## Screenshots
+
+[![Open VSX](https://img.shields.io/open-vsx/dt/HarisKhan-777/papercolor-dark-theme?label=Open%20VSX%20downloads)](https://open-vsx.org/extension/HarisKhan-777/papercolor-dark-theme)
 
 ![PaperColor Dark Theme in Action](https://raw.githubusercontent.com/RealHaris/paper-color-dark-vscode-cursor-theme/main/assets/screenshot.png)
 
