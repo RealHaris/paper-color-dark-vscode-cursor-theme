@@ -1,15 +1,40 @@
 {
-  "name": "papercolordark-theme",
+  "name": "papercolor-dark-theme",
   "displayName": "PaperColor Dark Theme",
-  "description": "A beautiful dark theme inspired by PaperColor",
+  "description": "A beautiful dark theme for VS Code inspired by the popular PaperColor vim colorscheme. Easy on the eyes with excellent readability.",
   "version": "1.0.0",
-  "publisher": "local",
+  "publisher": "RealHaris",
+  "author": "RealHaris",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "papercolor",
+    "dark",
+    "color-theme",
+    "vim",
+    "syntax highlighting"
+  ],
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#1c1c1c",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RealHaris/paper-color-dark-vscode-cursor-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/RealHaris/paper-color-dark-vscode-cursor-theme/issues"
+  },
+  "homepage": "https://github.com/RealHaris/paper-color-dark-vscode-cursor-theme#readme",
+  "qna": "marketplace",
   "contributes": {
     "themes": [
       {
@@ -18,5 +43,9 @@
         "path": "./themes/PaperColorDark-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }
